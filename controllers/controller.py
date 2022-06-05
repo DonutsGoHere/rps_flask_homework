@@ -2,7 +2,6 @@ from flask import render_template
 
 from app import app
 from models.player import Player
-from models.game import *
 
 @app.route('/')
 def index():
@@ -10,8 +9,7 @@ def index():
 
 # @app.route('/<player_1_choice>/<player_2_choice>')
 # def result():
-#    return render_template('game_result')
-
+#    return render_template('game_result.html')
 
 # @app.route('/rock')
 # def rock():
